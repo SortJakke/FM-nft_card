@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="nft-card">
+      <figure class="image-section">
+        <div class="mask"></div>
+        <img
+          class="nft-image"
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium preview"
+        />
+        <div class="overlay">
+          <img
+            class="overlay-image"
+            src="./images/icon-view.svg"
+            alt="view icon"
+          />
+        </div>
+      </figure>
+      <section class="description-section">
+        <h1 class="nft-name">Equilibrium #3429</h1>
+        <p class="nft-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="nft-info">
+          <div class="nft-price">
+            <img src="./images/icon-ethereum.svg" alt="ethereum icon" />
+            <span>0.041 ETH</span>
+          </div>
+          <div class="nft-time">
+            <img src="./images/icon-clock.svg" alt="clock icon" />
+            <span>3 days left</span>
+          </div>
+        </div>
+      </section>
+      <section class="author-section">
+        <img src="./images/image-avatar.png" alt="author perfil image" />
+        <p>Creation of <span class="author-name">Jules Wyvern</span></p>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/SortJakke">Sortjakke</a>.
+    </footer>
+  </body>
+</html>
